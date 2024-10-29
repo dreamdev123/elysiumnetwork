@@ -1,0 +1,27 @@
+# Definition file for AWS CodeDeploy
+
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /data/www/elysiumnetwork.io/current
+permissions:
+  - object: /data/www/elysiumnetwork.io/current
+    owner: deploy
+    group: www-data
+    type:
+      - file
+      - directory
+hooks:
+  BeforeInstall:
+    - location: codedeploy-before.sh
+      timeout: 300
+      runas: deploy
+  AfterInstall:
+    - location: codedeploy-after.sh
+      timeout: 300
+      runas: deploy
+  ApplicationStart:
+    - location: codedeploy-start.sh
+      timeout: 300
+      runas: deploy

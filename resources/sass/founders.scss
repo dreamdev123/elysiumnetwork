@@ -1,0 +1,68 @@
+.founders-page {
+    color: #fff;
+
+    h1 {
+        font-family: 'DINPro-CondMedium', sans-serif;
+        font-size: 32px;
+    }
+}
+
+.founders-bg {
+    background: url("../images/TorsoBack.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+.form-group {
+    font-family: 'DINPro', sans-serif;
+}
+
+.form-control {
+    border-radius: 0;
+    padding: 8px 16px 6px;
+}
+
+.btn-danger {
+    font-family: 'DINPro-CondMedium', sans-serif;
+    background-color: #d22630;
+    border-radius: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+.founders-bg-form {
+    background: rgba(255,255,255,0.1);
+}
+
+.copyWrapper {
+    padding: 10px 0;
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline-block;
+
+            a {
+                list-style: none;
+                color: #6f7479;
+                border-right: solid 1px #3e3c3c;
+                padding: 0 18px;
+                font-size: 15px;
+                font-family: 'Calibri Light', sans-serif;
+            }
+        }
+    }
+}
+
+.row.footerWrapper p {
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+
+    .img-lion {
+        margin-right: -80px !important;
+    }
+
+}

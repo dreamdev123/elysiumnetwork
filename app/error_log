@@ -1,0 +1,8 @@
+[01-Aug-2021 01:13:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/elysiumnetwork/public_html/app/User.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/elysiumnetwork/public_html/app/User.php on line 41
+[01-Aug-2021 21:56:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/elysiumnetwork/public_html/app/FoundersLaunch.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/elysiumnetwork/public_html/app/FoundersLaunch.php on line 41

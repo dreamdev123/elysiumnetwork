@@ -1,0 +1,12 @@
+[02-Aug-2021 06:09:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/elysiumnetwork/public_html/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/elysiumnetwork/public_html/routes/console.php on line 16
+[02-Aug-2021 12:26:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/elysiumnetwork/public_html/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/elysiumnetwork/public_html/routes/channels.php on line 14
+[02-Aug-2021 18:15:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/elysiumnetwork/public_html/routes/web.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/elysiumnetwork/public_html/routes/web.php on line 17
